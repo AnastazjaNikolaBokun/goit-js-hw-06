@@ -21,4 +21,9 @@ const imageList = images
 
 console.log(imageList);
 
-list.innerHTML = imageList;
+list.insertAdjacentHTML("beforeend", imageList);
+
+list.style.display = "flex";
+list.style.listStyle = "none";
+list.style.justifyContent = "center";
+list.style.width = "100%";

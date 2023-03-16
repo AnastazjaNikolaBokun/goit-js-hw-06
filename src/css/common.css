@@ -23,16 +23,6 @@ button {
   cursor: pointer;
 }
 
-.gallery {
-  display: flex;
-  list-style: none;
-  /* border-style: dashed;
-  border-width: 5px;
-  border-color: pink; */
-  width: 100%;
-  justify-content: center;
-}
-
 .gallery img {
   height: 200px;
   padding: 0 10px 0 10px;

@@ -23,6 +23,13 @@ console.log(imageList);
 
 list.insertAdjacentHTML("beforeend", imageList);
 
+const img = document.querySelectorAll("img");
+
+img.forEach(function (e, i) {
+  e.style.height = "200px";
+  e.style.padding = "0 10px 0 10px";
+});
+
 list.style.display = "flex";
 list.style.listStyle = "none";
 list.style.justifyContent = "center";
